@@ -13,19 +13,16 @@ const Nav = styled.div`
 `
 
 const NavList = styled.ul`
-    width: 1080px;
+    width: 100%;
     display: flex;
-    margin: 0 auto;
 `
 
 const NavItem = styled(NavLink)`
-    width: 60px;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-left: 20px;
     display: flex;
-    &:active {
-        background-color: #5a6268;
-    }
+    &:active, :hover  {
+        background-color: #eeeeee
+    };
 `
 
 const Navi = () => {
