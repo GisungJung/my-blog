@@ -4,11 +4,10 @@ import styled from 'styled-components'
 
 const LOGO = styled.h1`
   display: inline-block;
+  margin-left: 10px;
 `;
 
 const HeaderWrap = styled.div`
-  height: 100px;
-  margin: 10px 10px;
   background-color : #eeeeee;
 `;
 
