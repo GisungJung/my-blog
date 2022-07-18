@@ -34,13 +34,13 @@ const Board = () => {
         <>
             <h2>Board</h2>
             <hr/>
-            <BtnGrp>
-                <button style={Button}>글쓰기</button>
-                <button style={Button}>수정</button>
-                <button style={Button}>삭제</button>
-            </BtnGrp>
-            <br/>
-            <div>
+            <div style={{width:"80%", margin:"0 auto"}}>
+                <BtnGrp>
+                    <button style={Button}>글쓰기</button>
+                    <button style={Button}>수정</button>
+                    <button style={Button}>삭제</button>
+                </BtnGrp>
+                <br/>
                 <Table>
                     <TableTr>
                         <TableTh>No</TableTh>
