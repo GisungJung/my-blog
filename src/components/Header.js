@@ -23,7 +23,7 @@ const Header = () => {
         <HeaderWrap>
             <Container>
                 <Row>
-                    <Link to='/'><LOGO>KEVIN BLOG</LOGO></Link>
+                    <Link to='/#'><LOGO>KEVIN BLOG</LOGO></Link>
                 </Row>
             </Container>
         </HeaderWrap>

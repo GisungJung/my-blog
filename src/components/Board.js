@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Table = styled.table`
     width: 100%;
@@ -36,7 +37,7 @@ const Board = () => {
             <hr/>
             <div style={{width:"80%", margin:"0 auto"}}>
                 <BtnGrp>
-                    <button style={Button}>글쓰기</button>
+                    <Link to='/board/write'><button style={Button}>글쓰기</button></Link>
                     <button style={Button}>수정</button>
                     <button style={Button}>삭제</button>
                 </BtnGrp>

@@ -6,6 +6,7 @@ import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import Board from "../components/Board"
+import BoardWrite from "./Board/BoardWrite";
 
 const Nav = styled.div`
     width: 100%;
@@ -39,6 +40,7 @@ const Navi = () => {
                 <Route path="/board" element={<Board/>}></Route>
                 <Route path="/portfolio" element={<Portfolio/>}></Route>
                 <Route path="/Contact" element={<Contact/>}></Route>
+                <Route path="/board/write" element={<BoardWrite/>}></Route>
             </Routes>
         </Nav>
     );
