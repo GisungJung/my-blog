@@ -4,7 +4,7 @@ const Educate = () => {
     return(
         <>
             <div>
-                <h3>동동이 개발자 Story</h3>
+                <h3>땅꼬마 개발자 Story</h3>
             </div>
             <div>
                 <p>2010.3~2018.2 남서울대학교 관광경영전공</p>

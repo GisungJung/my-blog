@@ -44,6 +44,11 @@ const Edit = ({}) => {
     const ResetContent = () => {
       console.log("초기화버튼");
       if (window.confirm("초기화가됩니다")) {
+        setBoardContent({
+          subject: "",
+          writer: "",
+          content: ""
+        });
       } else {
         alert("취소합니다.");
       }

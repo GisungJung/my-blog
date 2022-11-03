@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
